@@ -1,0 +1,21 @@
+# Project 1: NYC parking violation
+
+# File structure
+  nycparking
+    src
+      nycparking
+        api.py
+    Docker file
+    main.py
+    requirements.txt
+    
+    
+ # packages
+    sodapy
+    requests
+    
+ # example commands
+    docker run -v $(pwd):/app -e APP_KEY={Your APP KEY here without brackets} -t yuqianshi/bigdata1:latest python main.py 1000 4 results.json
+    # in the example commands, no need to input  num_pages and page_size. input the number directly. 
+    
+    
